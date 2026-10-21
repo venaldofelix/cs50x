@@ -1,0 +1,55 @@
+# CS50x - Week 1: C
+
+## Yang saya pelajari
+
+### 1. Sintaks dasar C
+- Program C selalu punya fungsi `main`.
+- Setiap perintah diakhiri titik koma `;`.
+- Kode harus dikompilasi dulu sebelum dijalankan.
+
+Contoh :
+
+#include <stdio.h>
+
+int main(void)
+{
+    printf("hello, world\n");
+}
+
+### 2. Command line
+- `make hello` : mengompilasi program
+- `./hello` : menjalankan program
+- `ls`, `cd`, `mkdir` : melihat, berpindah, dan membuat folder
+
+### 3. Include (library)
+- `#include <stdio.h>` memberi akses ke `printf`.
+- `#include <cs50.h>` memberi akses ke fungsi CS50 seperti `get_string()`.
+- Include dipakai untuk memanggil fungsi yang ada di file lain.
+
+### 4. Format code `printf`
+- `%s` untuk string
+- `%i` untuk integer
+- `%c` untuk karakter
+
+Contoh:
+
+string name = get_string("What's your name? ");
+printf("hello, %s\n", name);
+
+### 5. Tipe data
+- C mengharuskan tipe data ditulis eksplisit (`int`, `char`, `float`, `string`).
+
+### 6. Operator
+- Assignment: `=`
+- Aritmetika: `+`, `-`, `*`, `/`, `%`
+- Perbandingan dan logika: `==`, `!=`, `<`, `>`, `&&`, `||`
+
+### 7. Style dan kesederhanaan kode
+- Nama variabel jelas.
+- Indentasi rapi.
+- Komentar secukupnya.
+- Kode sederhana lebih mudah dibaca dan diperbaiki.
+
+## Progress
+- Lecture 1 baru sampai bagian **loops**.
+- Berikutnya: sisa lecture, lalu kerjakan **Problem Set 1**.
